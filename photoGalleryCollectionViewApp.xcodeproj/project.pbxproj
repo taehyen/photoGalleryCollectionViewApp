@@ -12,6 +12,8 @@
 		298FCE1721D625FE003C823E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298FCE1521D625FE003C823E /* Main.storyboard */; };
 		298FCE1921D62600003C823E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298FCE1821D62600003C823E /* Assets.xcassets */; };
 		298FCE1C21D62600003C823E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298FCE1A21D62600003C823E /* LaunchScreen.storyboard */; };
+		298FCE2521D64B2B003C823E /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FCE2421D64B2B003C823E /* CustomCollectionViewCell.swift */; };
+		298FCE2721D6525B003C823E /* CustomPhotoAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FCE2621D6525B003C823E /* CustomPhotoAlbum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		298FCE1821D62600003C823E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		298FCE1B21D62600003C823E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		298FCE1D21D62600003C823E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298FCE2421D64B2B003C823E /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		298FCE2621D6525B003C823E /* CustomPhotoAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPhotoAlbum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				298FCE1821D62600003C823E /* Assets.xcassets */,
 				298FCE1A21D62600003C823E /* LaunchScreen.storyboard */,
 				298FCE1D21D62600003C823E /* Info.plist */,
+				298FCE2421D64B2B003C823E /* CustomCollectionViewCell.swift */,
+				298FCE2621D6525B003C823E /* CustomPhotoAlbum.swift */,
 			);
 			path = photoGalleryCollectionViewApp;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				298FCE1421D625FE003C823E /* ViewController.swift in Sources */,
+				298FCE2521D64B2B003C823E /* CustomCollectionViewCell.swift in Sources */,
 				298FCE1221D625FE003C823E /* AppDelegate.swift in Sources */,
+				298FCE2721D6525B003C823E /* CustomPhotoAlbum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
