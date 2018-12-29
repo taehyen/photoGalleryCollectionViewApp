@@ -56,9 +56,9 @@ class ViewController: UIViewController {
 extension ViewController: UICollectionViewDelegate {
 	func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
 		guard let assets = assets else { return }
-
+		
 		let size = Double(collectionView.frame.size.width)
-		PHImageManager.default().requestImage(for: assets[indexPath.row], targetSize: CGSize(width: size, height: size), contentMode: .aspectFill, options: nil) { (image: UIImage?, info: [AnyHashable: Any]?) -> Void in
+		PHCachingImageManager.default().requestImage(for: assets[indexPath.row], targetSize: CGSize(width: size, height: size), contentMode: .aspectFill, options: nil) { (image: UIImage?, info: [AnyHashable: Any]?) -> Void in
 			(cell as! CustomCollectionViewCell).imageView.image = image
 		}
 	}
